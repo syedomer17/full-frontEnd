@@ -1,24 +1,24 @@
 *{
-    font-family: monospace; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html{
+body{
     font-size: 22px;
+    font-family: monospace;
+    line-height: 1.5;
+    background-color: papayawhip;
 }
-
+main{
+    font-size: 3rem;
+}
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
 p{
-    color: purple;
-}
-h1,h2{
-    color: blue;
-}
-.gray{
-    color: gray;
-}
-#second{
-    font-size: 22px;
-    border: 2px solid black;
-}
-.high{
-    text-transform: uppercase;
-    background-color: gold;
+    font-size: 2rem;
+    width: 40ch;
 }
