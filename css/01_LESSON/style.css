@@ -1,9 +1,10 @@
 *{
-    font-family: monospace;
+    font-family: monospace; 
 }
-body{
+html{
     font-size: 22px;
 }
+
 p{
     color: purple;
 }
@@ -14,7 +15,8 @@ h1,h2{
     color: gray;
 }
 #second{
-    font-size: italic;
+    font-size: 22px;
+    border: 2px solid black;
 }
 .high{
     text-transform: uppercase;
