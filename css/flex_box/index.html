@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Flexbox Examples</h1>
+    <p>This file demonstrates how different Flexbox properties work:</p>
+    <ul>
+        <li><b>display: flex;</b> - Enables Flexbox</li>
+        <li><b>align-items</b> - Controls vertical alignment</li>
+        <li><b>justify-content</b> - Controls horizontal spacing</li>
+        <li><b>flex-wrap</b> - Allows items to wrap into new lines</li>
+    </ul>
+
+    <h2>Alignment (align-items)</h2>
+    <div class="container align-start">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+    </div>
+    <div class="container align-center">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+    </div>
+    <div class="container align-end">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+    </div>
+
+    <h2>Wrapping (flex-wrap)</h2>
+    <div class="container nowrap">
+        <div class="box">1</div><div class="box">2</div><div class="box">3</div><div class="box">4</div><div class="box">5</div>
+    </div>
+    <div class="container wrap">
+        <div class="box">1</div><div class="box">2</div><div class="box">3</div><div class="box">4</div><div class="box">5</div>
+    </div>
+    <div class="container wrap-reverse">
+        <div class="box">1</div><div class="box">2</div><div class="box">3</div><div class="box">4</div><div class="box">5</div>
+    </div>
+
+    <h2>Justification (justify-content)</h2>
+    <div class="container justify-start">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+    <div class="container justify-center">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+    <div class="container justify-end">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+    <div class="container justify-between">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+    <div class="container justify-around">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+    <div class="container justify-evenly">
+        <div class="box">X</div>
+        <div class="box">Y</div>
+        <div class="box">Z</div>
+    </div>
+</body>
+</html>
