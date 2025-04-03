@@ -1,0 +1,44 @@
+Think of display like the type of box a sticker comes in. Some stickers are in a block, some in a line, and some are hidden.
+
+🎨 Common display values:
+block - Starts on a new line and takes up the full width.
+📌 Like a big box that always pushes the next sticker to the next line.
+
+inline - Stays in the same line and only takes up as much space as needed.
+📌 Like small stickers that fit next to each other.
+
+none - Completely disappears!
+📌 Like a hidden sticker that you can’t see.
+
+📍 2. Position Property
+Now, let’s learn how to place stickers on your paper using the position property.
+
+🏠 Types of Positioning
+1️⃣ Static (Default)
+🎈 This is like placing a sticker normally on paper. It does not move.
+
+
+2️⃣ Relative
+🎈 This is like a floating sticker that you can move a little from its normal place.
+📌 Example: A balloon floating slightly from its original position.
+
+3️⃣ Absolute
+🎈 This sticker ignores all the other stickers and sticks wherever you tell it to.
+
+📌 Example: A butterfly anywhere on the paper, ignoring other stickers.
+
+4️⃣ Fixed
+🎈 This sticker stays in the same place even if you scroll the paper.
+
+📌 Example: A clock sticking on the wall, even if you move the paper.
+
+5️⃣ Sticky
+🎈 This sticker moves when you scroll but stops at a certain point.
+
+🎯 Recap
+Position Type	Moves?	Sticks?
+static	        ❌ No	❌ No
+relative	    ✅ Yes	❌ No
+absolute	    ✅ Yes	❌ No
+fixed	        ❌ No	✅ Yes (Even when scrolling)
+sticky	        ✅ Yes	✅ Yes (Stops at a point)

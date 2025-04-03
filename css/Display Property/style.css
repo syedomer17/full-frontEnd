@@ -1,0 +1,34 @@
+.box{
+    background-color: red;
+    display: block; /* This takes the full width */
+    position: static;/* Default, normal position */
+}
+.inline{
+    background-color: blue;
+    display: inline; /* This stays in the same line */
+    position: relative;
+    top: 20px; /* Moves 20px down */
+    left: 30px; /* Moves 30px right */
+}
+.hidden{
+    background-color: aqua;
+    display: none; /* This disappears */
+}
+
+.absoulute{
+    background-color: green;
+    position: absolute;
+    top: 50px; /* 50px down from the nearest positioned parent */
+    left: 100px; /* 100px from the left */
+}
+.fixed{
+    background-color: bisque;
+    position: fixed;
+    top: 0; /* Always at the top */
+    right: 0; /* Always at the right */
+    background: red;
+}
+.st{
+    position: sticky;
+    top: 10px; /* Stops moving after reaching 10px */
+}

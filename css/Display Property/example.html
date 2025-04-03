@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+    }
+    .static-box {
+      position: static;
+      background: blue;
+    }
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background: green;
+    }
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      background: orange;
+    }
+    .fixed-box {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: red;
+    }
+    .sticky-box {
+      position: sticky;
+      top: 10px;
+      background: purple;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box static-box">Static</div>
+  <div class="box relative-box">Relative</div>
+  <div class="box absolute-box">Absolute</div>
+  <div class="box fixed-box">Fixed</div>
+  <div class="box sticky-box">Sticky</div>
+
+</body>
+</html>
