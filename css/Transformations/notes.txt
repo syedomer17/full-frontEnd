@@ -1,0 +1,58 @@
+Imagine you have a toy car 🏎️.
+
+Rotate 🌀 – You turn the car left or right.
+
+Scale 🔍 – You make the car bigger or smaller.
+
+Translate 🚗 – You move the car left, right, up, or down.
+
+Skew 📐 – You stretch or tilt the car like a racing blur.
+
+1️⃣ Rotate (Turn Things Around)
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: rotate(45deg);
+}
+📌 The red box will turn 45 degrees! 🌀
+
+2️⃣ Scale (Make Things Bigger or Smaller)
+.scale-box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transform: scale(1.5);
+}
+📌 The blue box will be 1.5 times bigger! 🔍
+
+3️⃣ Translate (Move Things Around)
+css
+Copy
+Edit
+.translate-box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transform: translate(50px, 50px);
+}
+📌 The green box moves 50px right and 50px down! 🚗
+
+4️⃣ Skew (Tilt Things)
+css
+Copy
+Edit
+.skew-box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transform: skew(20deg, 10deg);
+}
+📌 The orange box will be tilted! 📐
+
+🌀 Rotate – Turns the object.
+🔍 Scale – Makes the object bigger or smaller.
+🚗 Translate – Moves the object around.
+📐 Skew – Tilts or stretches the object.
+
+🎨 Now you can make things move, rotate, and grow on your web page! 🚀

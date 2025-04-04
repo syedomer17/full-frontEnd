@@ -1,0 +1,34 @@
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Rotate */
+.rotate-box {
+    background: red;
+    transform: rotate(45deg);
+}
+
+/* Scale */
+.scale-box {
+    background: blue;
+    transform: scale(1.5);
+}
+
+/* Translate */
+.translate-box {
+    background: green;
+    transform: translate(50px, 50px);
+}
+
+/* Skew */
+.skew-box {
+    background: orange;
+    transform: skew(20deg, 10deg);
+}
