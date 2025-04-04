@@ -1,0 +1,23 @@
+ /* Google Font */
+ body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Local Font */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('myFont.ttf') format('truetype');
+}
+
+.custom-font {
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 24px;
+    color: darkblue;
+}
+
+/* Icon Styles */
+.icon {
+    font-size: 40px;
+    margin: 10px;
+}
