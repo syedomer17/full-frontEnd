@@ -1,0 +1,56 @@
+What are CSS Variables?
+Imagine you have a magic box 🎁 where you store colors, fonts, or sizes. Instead of writing the same color over and over, you just use the magic box name!
+
+1️⃣ Declaring a CSS Variable
+📌 You put CSS variables inside :root {} so the whole page can use them.
+
+Example:
+css
+Copy
+Edit
+:root {
+    --main-color: #3498db;  /* Blue */
+    --text-color: white;
+    --font-size: 18px;
+}
+Here, we created 3 variables:
+
+--main-color (for backgrounds)
+
+--text-color (for text)
+
+--font-size (for text size)
+
+2️⃣ Using a CSS Variable
+📌 To use a variable, you write var(--variable-name).
+
+Example:
+css
+body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+✅ Now, if you change --main-color, the whole page changes! 🎉
+
+3️⃣ Changing Variables Dynamically
+📌 You can change variables for different elements!
+
+Example:
+css
+button {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    --main-color: #e74c3c; /* Red */
+    background-color: var(--main-color);
+}
+✅ Now, when you hover, the button turns red! 🚀
+
