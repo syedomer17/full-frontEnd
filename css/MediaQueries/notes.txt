@@ -1,0 +1,37 @@
+📱 Media Queries (Responsive Design)
+1️⃣ What are Media Queries?
+Imagine you're making a magical T-shirt that changes size depending on who's wearing it! 👕
+
+If a kid wears it, it shrinks!
+
+If a giant wears it, it expands!
+
+👉 Media Queries do the same for websites! They change the layout depending on the screen size.
+
+2️⃣ How Do They Work?
+📌 A media query checks the screen size and applies styles only when the condition is true.
+
+Example:
+/* Default style for all screens */
+body {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+/* When the screen is 600px or smaller (like a phone) */
+@media (max-width: 600px) {
+    body {
+        background-color: pink;
+        font-size: 16px;
+    }
+}
+✅ Now, if the screen is smaller than 600px, the background turns pink! 🎉
+
+3️⃣ Common Media Query Breakpoints
+📌 Different devices have different screen sizes. We use breakpoints to handle them.
+
+Device Type	Width Breakpoint
+📱 Mobile	max-width: 600px
+📺 Tablet	max-width: 900px
+💻 Laptop	max-width: 1200px
+🖥️ Desktop	 No limit (default)

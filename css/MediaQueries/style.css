@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: navy;
+    padding: 15px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 📱 Mobile Screens (max 600px) */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        font-size: 24px;
+    }
+}
+
+/* 📺 Tablet Screens (max 900px) */
+@media (max-width: 900px) {
+    .links {
+        font-size: 20px;
+    }
+}
