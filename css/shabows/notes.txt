@@ -1,0 +1,78 @@
+🎨 CSS Shadows, Borders, and Advanced Styling ✨
+📌 1. What Are Shadows & Borders?
+Shadows and borders add depth and design to elements, making them stand out on a webpage.
+
+✔ Box Shadows 🏠 - Add depth to boxes
+✔ Text Shadows 🔤 - Create glowing or blurred text
+✔ Borders 🖼️ - Frame elements with different styles
+
+📌 2. Shadows in CSS
+CSS allows us to add shadows to boxes and text.
+
+🔹 Box Shadow (box-shadow)
+Syntax:
+
+box-shadow: offsetX offsetY blur-radius spread-radius color;
+✔ offsetX → Moves shadow left or right
+✔ offsetY → Moves shadow up or down
+✔ blur-radius → Makes the shadow soft or sharp
+✔ spread-radius → Expands the shadow
+✔ color → Changes shadow color
+
+🔹 Example:
+
+.shadow-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+🔹 Text Shadow (text-shadow)
+Syntax:
+
+text-shadow: offsetX offsetY blur-radius color;
+✔ Works only on text
+✔ Creates a glow or shadow effect
+
+🔹 Example:
+.shadow-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+📌 3. Borders in CSS
+Borders create a frame around elements.
+
+🔹 Border Syntax
+
+border: width style color;
+✔ width → Thickness (px, em, rem)
+✔ style → solid, dashed, dotted, double, groove
+✔ color → Any color
+
+🔹 Example:
+
+css
+Copy
+Edit
+.border-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border: 5px solid red;
+}
+🔹 Border Radius (Rounded Corners)
+
+border-radius: value;
+✔ Makes corners rounded
+✔ Works with any unit (px, %, em)
+
+🔹 Example:
+
+.rounded-box {
+    width: 150px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
