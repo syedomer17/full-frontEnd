@@ -1,0 +1,42 @@
+/* 1️⃣ Attribute Selectors */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+button[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* 2️⃣ nth-child Selector */
+ul li:nth-child(even) {
+    background-color: lightgray;
+    padding: 5px;
+}
+p:nth-child(3) {
+    font-weight: bold;
+    color: red;
+}
+
+/* 3️⃣ Pseudo-classes */
+button:hover {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+input[type="checkbox"]:checked {
+    accent-color: red;
+}
+
+/* 4️⃣ Pseudo-elements */
+p::first-letter {
+    font-size: 30px;
+    color: blue;
+}
+h1::before {
+    content: "⭐ ";
+}
+::selection {
+    background-color: yellow;
+    color: black;
+}
