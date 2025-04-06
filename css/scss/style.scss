@@ -1,0 +1,21 @@
+$bg: #222;
+$text: #fff;
+
+body {
+  background: $bg;
+  color: $text;
+
+  h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid lighten($bg, 20%);
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    background: lighten($bg, 10%);
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+}
