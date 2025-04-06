@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+  /* ::before and ::after */
+  .magic-text::before {
+    content: "✨ Before: ";
+    color: orange;
+  }
+
+  .magic-text::after {
+    content: " 🎉 After!";
+    color: green;
+  }
+
+  /* ::first-letter */
+  .big-first::first-letter {
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+  }
+
+  /* ::first-line */
+  .fancy-paragraph::first-line {
+    color: blue;
+    font-weight: bold;
+  }
+
+  /* Tooltip effect with generated content */
+  .tooltip {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .tooltip:hover::after {
+    opacity: 1;
+  }

@@ -1,0 +1,26 @@
+🧒 What are Pseudo-Elements?
+Imagine you have a book 📖. Even if you didn't write anything at the beginning or end, the book can still show some auto-text like “Chapter 1” or “The End” — that’s like pseudo-elements!
+
+We use them in CSS to:
+
+Add stuff before or after elements (::before, ::after)
+
+Style parts of elements (like ::first-line, ::first-letter)
+
+✏️ Example in Plain Words:
+
+p::before {
+  content: "📌 Start: ";
+}
+p::after {
+  content: " ✅ End.";
+}
+Now any <p> will start with "📌 Start:" and end with "✅ End."
+
+🪄 What You Learned:
+Selector	    Magic it does
+::before	    Adds content before an element
+::after	        Adds content after an element
+::first-letter	Styles the first letter of a block
+::first-line	Styles the first line of text
+attr()	        Pulls the value of an attribute (like tooltips!)
