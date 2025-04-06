@@ -1,0 +1,17 @@
+🧒 Easy Explanation:
+1. Parallax – “Magic background moves slower than the stuff in front!”
+Feels like a cartoon where the background moves slowly and the characters move faster.
+
+2. Scroll Snapping – “It’s like magnetic pages!”
+When you scroll, the page “snaps” to the next section instead of stopping anywhere.
+
+3. Sticky Elements – “This thing follows you as you scroll!”
+Like a sticky note that stays at the top while the rest scrolls.
+
+🧪 What You’ll See:
+Parallax: Big background image moves slower than your scroll.
+
+Scroll Snap: Scrolls like flipping pages.
+
+Sticky Header: Sticks on top while rest scrolls.
+
