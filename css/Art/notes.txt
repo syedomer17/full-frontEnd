@@ -1,0 +1,17 @@
+🎨 What is CSS Art?
+Imagine you're using scissors, glue, and crayons in your craft class. CSS Art is like that — but you use code instead of real scissors and paper. You can cut shapes, cover things with a mask, or blend colors just like mixing paint.
+
+🔺 1. Clip Path – “Cutting Shapes”
+Think of it like scissors ✂️ — you start with a box, and you cut it into cool shapes like triangles, circles, or stars.
+clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+🟧 This cuts a triangle out of a square. You can make any shape by changing the points!
+
+🌕 2. Masking – “Stencil Drawing”
+Think of it like using a stencil. You place a paper with a hole on top of an image. You only see the part of the picture that fits in the hole.
+mask-image: radial-gradient(circle at center, black 50%, transparent 100%);
+🖼 This shows only the circular part of an image. The rest is hidden!
+
+🧪 3. Blending Modes – “Mixing Paint”
+Imagine painting red on top of a photo. With blend modes, the red color and photo mix like real paint.
+mix-blend-mode: multiply;
+❤️ + 📷 = 🎨 A cool effect where colors and pictures blend together.
