@@ -1,0 +1,20 @@
+Imagine your webpage is like a room. You can press a button and switch the lights on or off!
+
+Light Mode = Lights ON 💡 (White background, dark text)
+
+Dark Mode = Lights OFF 🌙 (Dark background, white text)
+
+We do this by changing the CSS theme using a button!
+
+
+💡 How it Works:
+We use :root to define CSS variables.
+
+.dark-theme changes those variables to dark ones.
+
+The JavaScript function toggleTheme() just adds or removes the dark-theme class.
+
+🌈 Try This:
+Customize the button style per theme.
+
+Store the user's theme in localStorage so it remembers the theme even if you reload.
