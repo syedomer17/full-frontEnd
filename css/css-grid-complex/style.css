@@ -1,0 +1,42 @@
+/* The grid board 🎯 */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer";
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  /* Common styles for all areas */
+  .grid-container > div {
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+  }
+
+  .header {
+    grid-area: header;
+    background-color: #007bff;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #28a745;
+  }
+
+  .content {
+    grid-area: content;
+    background-color: #ffc107;
+    color: black;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: #6c757d;
+  }

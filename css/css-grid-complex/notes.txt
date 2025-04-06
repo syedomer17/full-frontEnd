@@ -1,0 +1,28 @@
+🎯 What is CSS Grid?
+Imagine a big sheet of graph paper 📒, and you can place your toys (boxes, text, pictures) inside each square or rectangle.
+
+That's what CSS Grid does — it lets you create rows and columns, and put stuff exactly where you want on your webpage!
+
+🧠 Important Words to Know
+Word	   What it Means (Kid Version)
+grid	   A LEGO board with lines 🧱
+row	       Horizontal line (like shelves) 📚
+column	   Vertical line (like towers) 🏢
+gap	       Space between blocks ✨
+grid-area  Naming your spaces so it’s easy to place things! 🧩
+
+🧩 What Did We Do?
+Block	Code Used	What It Did
+Whole Page	display: grid	Turns it into a LEGO board 🧱
+Areas	grid-template-areas	Gives names to blocks 🧩
+Sizes	grid-template-rows & columns	Makes shelves and towers 📏
+Gaps	gap: 10px;	Adds space between blocks ✨
+🏁 You Did It!
+You now know how to:
+
+Make rows & columns ✔
+
+Put stuff into exact spots ✔
+
+Create full layouts (like real websites!) ✔
+
