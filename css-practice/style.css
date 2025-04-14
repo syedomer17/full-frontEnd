@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: wheat;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #3498db;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  animation: fadeDown 1s ease-in-out;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 5px;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav-list li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #2ecc71;
+  transform: scale(1.1);
+}
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+.nav-list li a:hover::after {
+  width: 100%;
+}
+
+/* Scroll fade down animation */
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=style.css.map */

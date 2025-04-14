@@ -1,0 +1,4 @@
+list-style: none; use this for navbar because it will remove all the bots and number for the ul ol tage 
+
+text-decoration: none; it will remove the lines for the navbar like Home aBOUT cONTACT
+            ------------------
