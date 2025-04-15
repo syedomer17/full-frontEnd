@@ -61,7 +61,9 @@ html,body{
     background: blue;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    align-items: center
 }
 
 .box-1 {
