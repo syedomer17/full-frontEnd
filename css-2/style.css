@@ -55,3 +55,41 @@ html,body{
     background-color: yellow;
     box-sizing: border-box;
 }
+
+.flex-container{
+    display: flex;
+    background: blue;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box-1 {
+    padding: 20px;
+    margin: 10px;
+    background: lightblue;
+    border: 1px solid #000;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex: 1;
+}
+
+.box-2{
+    padding: 20px;
+    margin: 10px;
+    background: lightblue;
+    border: 1px solid #000;
+    align-self: flex-end;
+    flex-shrink: 1;
+    flex: 2 1 200px;
+}
+
+.box-3{
+    padding: 20px;
+    margin: 10px;
+    background: lightblue;
+    border: 1px solid #000;
+    align-self: center;
+    flex-grow: 2;
+    flex-basis: 100px;
+}
