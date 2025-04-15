@@ -95,3 +95,56 @@ html,body{
     flex-grow: 2;
     flex-basis: 100px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 10px;
+    background-color: green;
+}
+
+.grid-container div:nth-child(1) {
+    grid-column: span 2;
+    background-color: coral;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.grid-container div{
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.grid2-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    background-color: green;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid #000;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3; /* spans 2 columns */
+  }
+  
+  .item2 {
+    grid-column: 3 / 5; /* shorthand for start/end */
+    grid-column: 1 / 5;
+  }
+  
+  .item3 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    grid-row-end: 4;
+  }
+  
+  
