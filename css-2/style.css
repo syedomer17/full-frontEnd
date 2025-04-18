@@ -66,7 +66,7 @@ html,body{
     align-items: center
 }
 
-.box-1 {
+/* .box-1 {
     padding: 20px;
     margin: 10px;
     background: lightblue;
@@ -94,7 +94,7 @@ html,body{
     align-self: center;
     flex-grow: 2;
     flex-basis: 100px;
-}
+} */
 
 .grid-container{
     display: grid;
@@ -147,4 +147,63 @@ html,body{
     grid-row-end: 4;
   }
   
+  .grid3-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 150px 100px;
+    gap: 10px;
+    background-color: #eee;
+    
+    /* Define the named areas */
+    grid-template-areas:
+      "sidebar sidebar sidebar sidebar"
+      "header content content ads"
+      "footer footer footer footer";
+  }
   
+  .header {
+    grid-area: header;
+    background: lightcoral;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background: lightseagreen;
+  }
+  
+  .content {
+    grid-area: content;
+    background: lightblue;
+  }
+  
+  .ads {
+    grid-area: ads;
+    background: lightgoldenrodyellow;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background: lightgray;
+  }
+  
+  /* Common styling for all areas */
+  .grid3-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid #333;
+  }
+
+@media(max-width: 600px){
+    .grid3-container{
+        grid-template-columns: 1fr; /* one column */
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "sidebar"
+        "navbar" 
+        "content"
+        "ads"
+        "footer";;
+    }
+}
