@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.flexer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.item {
+    background-color: aqua;
+    align-self: auto;
+    height: 150px;
+    width: 150px;
+}
